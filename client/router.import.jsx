@@ -1,4 +1,5 @@
-import Auth from '/client/components/auth/Auth.import.jsx';
+import Auth from '/client/components/auth/Auth';
+
 FlowRouter.route('/', {
   action() {
     ReactLayout.render(Auth)
