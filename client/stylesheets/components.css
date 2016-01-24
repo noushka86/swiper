@@ -1,0 +1,39 @@
+#logo{
+  font-family:helvetica;
+  font-size:150px;
+  font-weight:200;
+  color: #9b59b6;
+  text-align:center;
+  margin:0;
+}
+
+#image-logo{
+  width:950px;
+  margin:0 auto;
+}
+
+#signInForm{
+
+}
+
+#signinInput{
+  width:100%;
+  height:150px;
+  padding:10px;
+  font-size:60px;
+  background: #9b59b6;
+  margin-bottom:20px;
+  margin-top: 64px;
+}
+
+::-webkit-input-placeholder{
+  color:white;
+  font-family:helvetica;
+  font-weight:200;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
